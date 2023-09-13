@@ -21,7 +21,7 @@ const About = () =>{
           <article className='about__card'>
             <BsAward className='about__icon'/>
           <h5>Experience</h5> 
-          <small>2+ Years of Working</small>
+          <small>5+ Years of Working</small>
           </article>
 
           <article className='about__card'>
@@ -40,7 +40,8 @@ const About = () =>{
          
         </div>
         <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magni magnam delectus quo, vero qui sint consequuntur odio voluptates eaque nulla consequatur non, est neque voluptate, harum optio enim aperiam.
+
+        I'm a versatile IT specialist, proficient in development, IT support, and tutoring. I excel at crafting efficient software solutions, resolving complex IT issues, and simplifying intricate concepts for learners. My dedication to technology innovation drives my work, ensuring robust systems, seamless operations, and empowered individuals. I'm committed to pushing boundaries and fostering growth in the ever-evolving IT landscape, offering a unique blend of skills to meet diverse challenges.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

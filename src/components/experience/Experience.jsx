@@ -8,7 +8,7 @@ import {BsPatchCheckFill} from 'react-icons/bs'
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
-      <div className="container experience__container">
+<div className="container experience__container">
 <div className='experience__fronted'>
 <h3>Frontend Development</h3>
 

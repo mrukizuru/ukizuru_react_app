@@ -35,6 +35,12 @@ const About = () =>{
           <h5>Project</h5> 
           <small>5+ Completed</small>
           </article>
+
+          <article className='about__card'>
+            <AiFillFolderOpen className='about__icon'/>
+          <h5>Testimonial</h5> 
+          <small>5+ Completed</small>
+          </article>
         </div>
         <p>
 

@@ -1,8 +1,14 @@
 import React from 'react'
 import './portfolio.css'
-function Portfolio() {
+const Portfolio = ()  =>{
   return (
-    <section  id='portfolio'>Portfolio</section>
+    <section  id='portfolio'>
+      
+      here I am
+      
+
+      
+      </section>
   )
 }
 

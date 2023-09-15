@@ -27,7 +27,7 @@ const About = () =>{
           <article className='about__card'>
             <FaGraduationCap className='about__icon'/>
           <h5>Education</h5> 
-          <small>Bacherlors Degre: Information Technology</small>
+          <small>Bacherlors Degree:</small>
           </article>
 
           <article className='about__card'>
@@ -43,8 +43,8 @@ const About = () =>{
           </article>
         </div>
         <p>
-
-        I'm a versatile IT specialist, proficient in development, IT support, and tutoring. I excel at crafting efficient software solutions, resolving complex IT issues, and simplifying intricate concepts for learners. My dedication to technology innovation drives my work, ensuring robust systems, seamless operations, and empowered individuals. I'm committed to pushing boundaries and fostering growth in the ever-evolving IT landscape, offering a unique blend of skills to meet diverse challenges.
+        I am a versatile Web Developer and IT Specialist with a passion for teaching as a Tutor. With a strong foundation in coding languages and web technologies, I create dynamic and user-friendly 
+        websites while sharing my expertise to empower others in the digital realm. Let's innovate and learn together!
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
@@ -53,5 +53,4 @@ const About = () =>{
       </section>
   )
 }
-
 export default About

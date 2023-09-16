@@ -7,7 +7,7 @@ import Experience from './components/experience/Experience'
 import Footer from './components/footer/Footer'
 import Nav from './components/nav/Nav'
 import Service from './components/service/Service'
-import Testimonial from './components/testimonial/Testimonial'
+import Testimonials from './components/testimonial/Testimonials'
 import Portfolio  from './components/portfolio/Portfolio'
 
 
@@ -42,13 +42,7 @@ export const useBreakpoints = () => {
   };
 };
 
-
-
-
-
-
-
-function App() {
+const App = () =>{
   return (
     <>
 <Header/>
@@ -57,7 +51,7 @@ function App() {
 <Experience/>
 <Service/>
 <Portfolio/>
-<Testimonial/>
+<Testimonials/>
 <Contact/>
 <Footer/>
     </>

@@ -1,8 +1,42 @@
 import React from 'react'
 import './contact.css'
-function Contact() {
+import {MdOutlineMail} from 'react-icons/md'
+import {FaFacebookMessenger} from 'react-icons/fa'
+import {BsWhatsapp} from 'react-icons/bs'
+const Contact = () =>{
   return (
-    <section id='contact'>Contact</section>
+    <section id='contact'>
+      
+<h5>Get In Touch</h5>
+<h2>Contact Me</h2>
+<div className='container contact__container'> 
+<div className="contact__options">
+
+  <article className='contact__option'>
+    <MdOutlineMail/>
+    <h4>Email</h4>
+    <h5>mr.ukizuru@gmail.com</h5>
+    <a href="mailto:mr.ukizuru@gmail.com" target='_blank'>Send a Message</a>
+  </article>
+
+  <article className='contact__option'>
+    <FaFacebookMessenger/>
+    <h4>Messenger</h4>
+    <h5>Mr Ukizuru</h5>
+    <a href="https://m.me/mr.ukizuru" target='_blank'>Send a Message</a>
+  </article>
+
+  <article className='contact__option'>
+    <BsWhatsapp/>
+    <h4>Whatsapp</h4>
+    <h5>+525540562833</h5>
+    <a href="https://w.app/UkizuruMustapha" >Send a Message</a>
+  </article>
+</div>
+{/* end of contact option */} 
+<form action=""></form>
+</div>
+ </section>
   )
 }
 

@@ -29,6 +29,16 @@ border: 0.4rem solid var(--color-primary-variant);
     margin:  0.8rem auto 0;
 }
 
+
+
+.swiper-pagination {
+   padding-top: 10rem;
+}
+
+
+
+
+
 /* =================Media Queries=====================*/
 
 @media screen and (max-width: 1024px){

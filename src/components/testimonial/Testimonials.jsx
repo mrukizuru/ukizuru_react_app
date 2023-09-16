@@ -1,10 +1,7 @@
 import React from 'react'
 import './testimonial.css'
-
-
 // import Swiper core and required modules
 import {Pagination} from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import AVTR from '../../assets/images/android-chrome-512x512.png'
 // Import Swiper styles
@@ -38,11 +35,12 @@ const Testimonials = () => {
     <section id='testimonials'>
 <h5>Review from Clients</h5>
 <h2>Testimonials</h2>
-<Swiper className="container testimonials__container"
+<div className="container testimonials__container">
+<Swiper
    // install Swiper modules
    modules={[Pagination]}
    spaceBetween={40}
-   slidesPerView={2}
+   slidesPerView={1}
    pagination={{ clickable: true }}>
 
 {
@@ -61,6 +59,7 @@ return (
 })
 }
 </Swiper>
+</div>
     </section>
   )
 }

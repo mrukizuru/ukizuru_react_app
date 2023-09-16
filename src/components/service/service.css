@@ -6,7 +6,7 @@
 }
 .service{
     background: var(--color-bg-variant);
-    border-radius:  0 0 2rem 2rem; 
+    border-radius:  0 0 1rem 1rem; 
     border:  1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
@@ -21,7 +21,7 @@
 .service__head{
     background: var(--color-primary);
     padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 0 0 1rem 1rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
@@ -64,3 +64,23 @@
 }
 
     }
+
+
+@media screen and (max-width: 320px){
+   /* For Small Mobile devices */
+            }
+@media screen and (max-width: 480px){
+/* For Mobile devices */
+ }
+@media screen and (max-width: 768px){
+/* For Tablets or iPad */
+  }
+
+@media screen and (max-width: 1024px){
+     /* For Laptop or small-size screen */
+}
+@media screen and (max-width: 1200px){
+ /* For Desktop or large-size screen */
+ }
+@media screen and (min-width: 1201px){
+/* For Extra-large size device */ }

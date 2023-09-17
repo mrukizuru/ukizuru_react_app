@@ -5,12 +5,13 @@ import {BsAward} from 'react-icons/bs'
 import {FaGraduationCap} from 'react-icons/fa'
 import {AiFillFolderOpen} from 'react-icons/ai'
 const About = () =>{
+
   return (
     <section id='about'>
    <h5>Get to Know</h5>
    <h2>About Me</h2>
    <div className="container about__container">
-    <div className='about__me'>
+    <div className='about__me'>  
     <div className='about__me-image'>
 <img src={Me} alt="Ukizuru Mustapha Photo" />
     </div>

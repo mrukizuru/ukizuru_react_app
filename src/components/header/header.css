@@ -80,4 +80,17 @@ header{
 .scroll__down{
 display: none;
 }
+.header__container{
+    width: var(--container-width-sm);
+}
+
+.me{
+    height: 24rem; 
+    width:  18rem; 
+    position: absolute;
+    left: calc(50% - 9rem); 
+    margin-top: 4rem;
+    padding: 2rem 1.5rem 1.5rem 1.5rem; 
+
+}
     }

@@ -11,30 +11,35 @@ const Contact = () =>{
 <h2>Contact Me</h2>
 <div className='container contact__container'> 
 <div className="contact__options">
-
   <article className='contact__option'>
-    <MdOutlineMail/>
+    <MdOutlineMail className='contact__option-icon'/>
     <h4>Email</h4>
     <h5>mr.ukizuru@gmail.com</h5>
     <a href="mailto:mr.ukizuru@gmail.com" target='_blank'>Send a Message</a>
   </article>
 
   <article className='contact__option'>
-    <FaFacebookMessenger/>
+    <FaFacebookMessenger className='contact__option-icon'/>
     <h4>Messenger</h4>
     <h5>Mr Ukizuru</h5>
     <a href="https://m.me/mr.ukizuru" target='_blank'>Send a Message</a>
   </article>
 
   <article className='contact__option'>
-    <BsWhatsapp/>
+    <BsWhatsapp className='contact__option-icon'/>
     <h4>Whatsapp</h4>
     <h5>+525540562833</h5>
     <a href="https://w.app/UkizuruMustapha" >Send a Message</a>
   </article>
 </div>
 {/* end of contact option */} 
-<form action=""></form>
+<form action="">
+<input type="text" name='name' placeholder='Your Full Name' required />
+<input type="email" name="email" id="email" placeholder='Your Email' required/>
+<textarea name="message" id="" rows="10" placeholder='Your Message' required>
+</textarea>
+<button type='submit' className='btn btn-primary'>Send Message</button>
+</form>
 </div>
  </section>
   )

@@ -26,7 +26,7 @@ review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam odio 
     {
       avatar: AVTR,
       name: 'Tina Snow',
-      review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam odio ullam dolore cum repellat dolores reprehenderit commodi fuga porro! Eaque odio quo tenetur nemo numquam laborum ex amet officia vel.'
+      review: 'Working with Designer s Name was a game-changer. Their UI/UX expertise elevated our project, creating an intuitive and visually stunning experience. They re a design visionary who brings innovation and user-centricity to every project. Highly recommended!'
     }
 ]
 

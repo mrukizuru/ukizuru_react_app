@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import Navbar from './components/nav/Navbar'
 import Header from './components/header/Header'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
@@ -45,6 +46,7 @@ export const useBreakpoints = () => {
 const App = () =>{
   return (
     <>
+<Navbar/>
 <Header/>
 <Nav/>
 <About/>

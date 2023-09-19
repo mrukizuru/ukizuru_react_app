@@ -3,13 +3,12 @@ import './contact.css'
 import {MdOutlineMail} from 'react-icons/md'
 import {FaFacebookMessenger} from 'react-icons/fa'
 import {BsWhatsapp} from 'react-icons/bs'
+import {BsFillSendFill} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+
+
 const Contact = () =>{
-
-
-
-
 
   const form=useRef();
 
@@ -25,20 +24,7 @@ const Contact = () =>{
       });
 
       e.target.reset()
-  };
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
   return (
     <section id='contact'>
       
@@ -64,7 +50,7 @@ const Contact = () =>{
     <BsWhatsapp className='contact__option-icon'/>
     <h4>Whatsapp</h4>
     <h5>+525540562833</h5>
-    <a href="https://w.app/UkizuruMustapha" >Send a Message</a>
+    <a href="https://w.app/UkizuruMustapha"  >Send a Message</a>
   </article>
 </div>
 {/* end of contact option */} 
@@ -73,7 +59,7 @@ const Contact = () =>{
 <input type="email" name="email" id="email" placeholder='Your Email' required/>
 <textarea name="message" id="" rows="10" placeholder='Your Message' required>
 </textarea>
-<button type='submit' className='btn btn-primary'>Send Message</button>
+<button type='submit' className='Sendbtn btn btn-primary'><BsFillSendFill/> Send Message</button>
 </form>
 </div>
  </section>

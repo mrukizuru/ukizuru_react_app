@@ -39,8 +39,8 @@ const About = () =>{
 
           <article className='about__card'>
             <AiFillFolderOpen className='about__icon'/>
-          <h5>Testimonial</h5> 
-          <small>5+ Completed</small>
+          <h5>Languages</h5> 
+          <small>3+ Languages</small>
           </article>
         </div>
         <p>
@@ -48,7 +48,7 @@ const About = () =>{
         websites while sharing my expertise to empower others in the digital realm. Let's innovate and learn together!
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Reach Out!</a>
       </div>
       </div>
       </section>

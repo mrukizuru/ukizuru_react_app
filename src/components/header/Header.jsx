@@ -4,6 +4,9 @@ import CTA from './CTA'
 import Floating from '../floating/Floating'
 import Me from '../../assets/images/me-profile.png'
 import HeaderSocialMedia from './HeaderSocialMedia'
+import Content from '../../assets/images/content-creator.png'
+import Coding from '../../assets/images/app-development.png'
+import Developer from '../../assets/images/app-development.png'
 function Header() {
   return (
  <header> 
@@ -15,8 +18,8 @@ function Header() {
     <HeaderSocialMedia/>
     <div className='me'>
     <img src= {Me} alt="Ukizuru Mustapha Profile" />
-    </div>
-    <Floating />
+    </div> 
+    <Floating image={Coding} text='Web Development'/>
     <a href="#contact" className='scroll__down'>Scroll Down</a>
   </div>
  </header>

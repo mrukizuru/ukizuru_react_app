@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+import Floating from '../floating/Floating'
 import Me from '../../assets/images/me-profile.png'
 import HeaderSocialMedia from './HeaderSocialMedia'
 function Header() {
@@ -15,6 +16,7 @@ function Header() {
     <div className='me'>
     <img src= {Me} alt="Ukizuru Mustapha Profile" />
     </div>
+    <Floating />
     <a href="#contact" className='scroll__down'>Scroll Down</a>
   </div>
  </header>

@@ -10,6 +10,10 @@ display: flex;
 gap: 2rem;
 }
 .n-name{
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -19,15 +23,15 @@ gap: 2rem;
     flex: 1;
     align-items: center;
     justify-content: center;
-    font-weight: 300;
 }
 .n-list{
     flex: 10;
+    font-size: 1rem;
 }
 
 .n-list > ul{
     display: flex;
-    gap: 2rem;
+    gap: 1.4rem;
     margin-right: 4rem;
     list-style: none;
 }
@@ -36,3 +40,34 @@ gap: 2rem;
 cursor: pointer;
 color: var(--color-primary);
 }
+
+.n-name .me__avatar{
+margin-top: 1rem;
+  
+    /* display: flex;
+   width: 20rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);  */
+    }
+
+
+
+
+
+/* =================Media Queries=====================*/
+
+@media screen and (max-width: 1024px){
+    .n-wrapper{
+       display: none;
+    }
+        }
+    
+    @media screen and (max-width: 600px){
+        .n-wrapper{
+            display: none;
+         }
+        
+        }

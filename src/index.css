@@ -109,6 +109,103 @@ margin-left: auto;
     color: var(--color-bg);
 }
 
+.joinbtn {
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+  }
+  
+  .join__me {
+    width: 30px;
+    height: 30px;
+    background: var(--color-bg-variant);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .3s;
+  }
+  
+  .join__me-icon {
+    border-radius: 1px;
+  font-size: 1.2rem;
+    color: var(--color-white);
+  }
+  
+  .text {
+    height: 100%;
+    width: 60px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-bg-variant);
+    z-index: 1;
+    transition-duration: .3s;
+    font-size: 1.2em;
+  }
+  
+  .joinbtn:hover .join__me {
+    width: 90px;
+    border-radius: 40px;
+    transition-duration: .3s;
+  }
+  
+  .joinbtn:hover .text {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: .3s;
+  }
+  
+  .joinbtn:active {
+    transform: scale(0.95);
+    transition-duration: .3s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 img{

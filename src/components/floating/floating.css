@@ -1,47 +1,71 @@
-/* .floatingdiv{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    background-color: transparent;
-    box-shadow: var(--boxShadow);
-    border-radius: 1rem;
-    align-items: center;
-    padding: 0px 38px 0px 0px;
-    height: 6rem;
-    width: 10rem;
-    border: 1px solid var(--color-bg-variant);
-}
-.floatingdiv > img{
-    position: absolute;
-    width: 200PX;
-    transform: scale(0.4);
 
-}
-.floatingdiv > span{
-    text-align: center;
-    position: absolute;
-    color: aquamarine;
-    margin-bottom: 0;
-} */
-
-.floatingdiv {
+.floating-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 20%;
-      border-radius: 1rem;
-    height: auto; /* Adjust the height as needed */
-    border: 1px solid var(--color-bg-variant);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    height: 100vh;
+    flex-wrap: wrap;
 
-.floatingdiv img {
+  }
+
+  .floating-div {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: left; /* Align text to the left */
+    max-width: 200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally on the page */
+   border: 1px solid var(--color-primary);
+   border-radius: 0.4rem;
+   background-color: var(--color-bg-variant);
+   padding: 0.5rem;
+  }
+  .floating-div img {
     max-width: 20%;
-    height: auto;
-}
+    height: auto; /* Maintain image aspect ratio */
+    margin-right: 10px; /* Add spacing between image and text */
+  }
+  .floating-div .content {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    right: 0;
+  }
 
-.floatingdiv > span {
-    font-size: 18px;
+ .floating-div small {
+    flex-grow: 1;
     margin-top: 10px;
-}
+  }
+
+¿
+
+  .floating-div.floating {
+    transform: translateY(-50px); /* Adjust this value for desired vertical displacement */
+  }
+
+  /* Define styles for each category */
+  .floating-div.web-development {
+    position: absolute;
+    bottom: 40%;
+    right: 5%;
+  }
+
+  .floating-div.content-creation {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+  }
+
+  .floating-div.ux-design {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .floating-div.backend-development {
+
+    position: absolute;
+    top: 10%;
+    left: 0;
+  }

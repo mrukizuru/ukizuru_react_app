@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ukizuru_react_app/static/css/main.6d096f11.css",
+    "main.css": "/ukizuru_react_app/static/css/main.b014928e.css",
     "main.js": "/ukizuru_react_app/static/js/main.d1c5253a.js",
     "static/media/UKIZURU MUSTAPHA -RESUME.pdf": "/ukizuru_react_app/static/media/UKIZURU MUSTAPHA -RESUME.605277fad7508463b04d.pdf",
     "static/media/ukizuru.png": "/ukizuru_react_app/static/media/ukizuru.e04eb27cf669ecde0194.png",
@@ -10,11 +10,11 @@
     "static/media/content-creator.png": "/ukizuru_react_app/static/media/content-creator.113f6eb37727f998c042.png",
     "static/media/app-development.png": "/ukizuru_react_app/static/media/app-development.f9d169e80e84e333a6d1.png",
     "index.html": "/ukizuru_react_app/index.html",
-    "main.6d096f11.css.map": "/ukizuru_react_app/static/css/main.6d096f11.css.map",
+    "main.b014928e.css.map": "/ukizuru_react_app/static/css/main.b014928e.css.map",
     "main.d1c5253a.js.map": "/ukizuru_react_app/static/js/main.d1c5253a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d096f11.css",
+    "static/css/main.b014928e.css",
     "static/js/main.d1c5253a.js"
   ]
 }

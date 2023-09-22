@@ -17,10 +17,10 @@ const Button = styled.button`
 `
 const Card = styled.div`
     width: 330px;
-    height: 490px;
+    height: 430px;
     background: var(--color-bg-variant);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
     overflow: hidden;
     padding: 26px 20px;

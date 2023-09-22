@@ -31,9 +31,6 @@ import React, { useState } from 'react';
 //   const isXHDFloor = useMediaQuery({ query: '(max-width: 1441px)' });
 //   const isXHDCeil = useMediaQuery({ query: '(max-width: 4096px)' });
 
-
-
-
 //   return {
 //     isMobileSmall,
 //     isMobileMid,
@@ -60,7 +57,7 @@ const App = () =>{
 {/* <Experience/>
 <Service/> */}
 {/* <Portfolio/> */}
-{/* <Testimonials/> */}
+<Testimonials/>
 <Projects openModal={openModal} setOpenModal={setOpenModal} />
 {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />

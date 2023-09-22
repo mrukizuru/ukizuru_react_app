@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ukizuru_react_app/static/css/main.38548d19.css",
-    "main.js": "/ukizuru_react_app/static/js/main.bcfa0ad9.js",
+    "main.css": "/ukizuru_react_app/static/css/main.3c784c6b.css",
+    "main.js": "/ukizuru_react_app/static/js/main.01e5e7d7.js",
     "static/media/UKIZURU MUSTAPHA -RESUME.pdf": "/ukizuru_react_app/static/media/UKIZURU MUSTAPHA -RESUME.605277fad7508463b04d.pdf",
     "static/media/ukizuru.png": "/ukizuru_react_app/static/media/ukizuru.e04eb27cf669ecde0194.png",
     "static/media/fullstack.png": "/ukizuru_react_app/static/media/fullstack.4f6ea0d05fb538af1298.png",
@@ -10,11 +10,11 @@
     "static/media/content-creator.png": "/ukizuru_react_app/static/media/content-creator.113f6eb37727f998c042.png",
     "static/media/app-development.png": "/ukizuru_react_app/static/media/app-development.f9d169e80e84e333a6d1.png",
     "index.html": "/ukizuru_react_app/index.html",
-    "main.38548d19.css.map": "/ukizuru_react_app/static/css/main.38548d19.css.map",
-    "main.bcfa0ad9.js.map": "/ukizuru_react_app/static/js/main.bcfa0ad9.js.map"
+    "main.3c784c6b.css.map": "/ukizuru_react_app/static/css/main.3c784c6b.css.map",
+    "main.01e5e7d7.js.map": "/ukizuru_react_app/static/js/main.01e5e7d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.38548d19.css",
-    "static/js/main.bcfa0ad9.js"
+    "static/css/main.3c784c6b.css",
+    "static/js/main.01e5e7d7.js"
   ]
 }

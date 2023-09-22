@@ -59,7 +59,7 @@ const Contact = () =>{
 <input type="email" name="email" id="email" placeholder='Your Email' required/>
 <textarea name="message" id="" rows="10" placeholder='Your Message' required>
 </textarea>
-<button type='submit' className='Sendbtn btn btn-primary'><BsFillSendFill/> Send Message</button>
+<button type='submit' className='Sendbtn btn btn-primary'><BsFillSendFill className='cta__icon'/> Send Message</button>
 </form>
 </div>
  </section>

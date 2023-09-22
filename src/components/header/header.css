@@ -23,8 +23,13 @@ header{
     justify-content: center;
 }
 
-/*==============HeaderSocialMedia==============*/
+ .cta__icon {
+margin-right: 0.6rem;
+ }
 
+
+
+/*==============HeaderSocialMedia==============*/
 .header__socialmedia{
     display: flex;
     flex-direction: column;

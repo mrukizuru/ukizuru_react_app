@@ -47,8 +47,7 @@ const About = () =>{
         I am a versatile Web Developer and IT Specialist with a passion for teaching as a Tutor. With a strong foundation in coding languages and web technologies, I create dynamic and user-friendly 
         websites while sharing my expertise to empower others in the digital realm. Let's innovate and learn together!
           </p>
-
-          <a href="#contact" className='btn btn-primary'>Reach Out!</a>
+          <a href="#contact" className='btn'>Reach Out!</a>
       </div>
       </div>
       </section>

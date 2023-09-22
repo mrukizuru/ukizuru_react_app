@@ -2,16 +2,26 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Container = styled.div`
-
-    background: var(--color-bg);
+    background: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     z-index: 1;
+    margin-top: 6rem;
     align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%,100% 98%, 0 100%);
 `;
+
+
+export const wrapper__container = styled.h5`
+margin-top: 5rem;
+display: grid;
+grid-template-columns: 35% 50%;
+color: red;
+`
+
+
 
 export const Wrapper = styled.div`
     position: relative;
@@ -19,8 +29,6 @@ export const Wrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    max-width: 1350px;
     padding: 10px 0px 100px 0;
     gap: 12px;
     @media (max-width: 960px) {
@@ -40,25 +48,23 @@ margin-top: 20px;
   }
 `;
 
-export const Desc = styled.div`
+export const h5 = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;
-        font-size: 16px;
+        font-size: 26px;
     }
 `;
 
 export const ToggleButtonGroup = styled.div`
     display: flex;
-    border: 1.5px solid ${({ theme }) => theme.primary};
+    border: 1px solid var(--color-primary);
     color: ${({ theme }) => theme.primary};
-    font-size: 16px;
-    border-radius: 12px;
-    font-weight: 500;
-    margin: 22px 0px;
+    border-radius: 0.4rem;
+    margin: 4rem 0;
     @media (max-width: 768px) {
         font-size: 12px;
     }

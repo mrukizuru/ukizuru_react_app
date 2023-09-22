@@ -8,8 +8,8 @@ import { projects } from '../../data/constants'
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
   return (
-    <Container id="projects ">
-      <Wrapper className='section'>
+    <Container id="projects" className='section'>
+      <Wrapper className='container wrapper__container'>
         <h5>What i did</h5>
         <h2>Projects</h2>
         {/* <Desc>

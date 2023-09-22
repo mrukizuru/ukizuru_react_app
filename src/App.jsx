@@ -57,8 +57,8 @@ const App = () =>{
 <Header/>
 <Nav/>
 <About/>
-<Experience/>
-<Service/>
+{/* <Experience/>
+<Service/> */}
 {/* <Portfolio/> */}
 {/* <Testimonials/> */}
 <Projects openModal={openModal} setOpenModal={setOpenModal} />

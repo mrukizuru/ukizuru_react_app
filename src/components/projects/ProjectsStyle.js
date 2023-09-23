@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Container = styled.div`
-    background: transparent;
+    // background: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@ export const Container = styled.div`
     z-index: 1;
     margin-top: 6rem;
     align-items: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%,100% 98%, 0 100%);
+    // clip-path: polygon(0 0, 100% 0, 100% 100%,100% 98%, 0 100%);
 `;
 
 
@@ -29,7 +29,7 @@ export const Wrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 10px 0px 100px 0;
+    padding: 2rem 0 2rem 0;
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
@@ -97,7 +97,7 @@ export const CardContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+    gap: 2rem;
     flex-wrap: wrap;
     // display: grid;
     // grid-template-columns: repeat(3, 1fr);

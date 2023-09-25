@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 :root{
-  --color-bg-dark: #141414;
+  --color-bg-dark: #1c1d1f;
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
@@ -33,9 +33,9 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-color: var(--color-bg-dark);  */
-
- background: url(../src/assets/images/bg-texture.png); 
+   background-color: var(--color-bg-dark); 
+/* 
+ background: url(../src/assets/images/bg-texture.png);  */
 }
 
 /*  =========== General  Styles =============*/

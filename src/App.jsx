@@ -7,10 +7,9 @@ import Footer from './components/footer/Footer'
 import Nav from './components/nav/Nav'
 import Projects from './components/projects/index'
 import ProjectDetails from './components/projectDetails/index'
-import TestiMonials from './components/TestiMonials/TestiMonials';
+import Testimonials from './components/Testimonials/Testimonials';
 import React, { useState } from 'react'
 // import { useMediaQuery } from 'react-responsive';
-
 const App = () =>{
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)
@@ -24,7 +23,7 @@ const App = () =>{
 {openModal.state && <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />}
 
 <Contact/>
-<TestiMonials></TestiMonials>
+<Testimonials/>
 <Footer/>
     </>
   )

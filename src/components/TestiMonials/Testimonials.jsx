@@ -5,36 +5,17 @@ import avatar__3 from '../../assets/images/android-chrome-512x512.png'
 import avatar__4 from '../../assets/images/android-chrome-512x512.png'
 import avatar__5 from '../../assets/images/android-chrome-512x512.png'
 import avatar__6 from '../../assets/images/android-chrome-512x512.png'
-import avatar__7 from '../../assets/images/android-chrome-512x512.png'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 import {BsFacebook} from 'react-icons/bs'
 import    {BiSolidStarHalf} from 'react-icons/bi'
 // import React, { useRef, useState } from 'react';
-// // Import Swiper React components
-// import { Swiper, SwiperSlide } from 'swiper/react';
-
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/effect-coverflow';
-// import 'swiper/css/pagination';
-
-
-// // import required modules
-// import { EffectCoverflow, Pagination } from 'swiper/modules';
-
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-
-
 // import required modules
 import { EffectCards } from 'swiper/modules';
-
-
 const data = [
   {
     avatar: avatar__1,
@@ -84,41 +65,19 @@ const data = [
     webapp: "https://podstream.netlify.app/",
   }
  ]
-
-
-
-
-
-
 function Testimonials() {
   return (
-
-
-
 <section id='testimonials'>
   <h5>Review from Clients</h5>
   <h2>Testimonials</h2>
-
-
-
-
-
-
-
-
-
-
-  
     <Swiper
           effect={'cards'}
           grabCursor={true}
           modules={[EffectCards]}
     className='mySwiper container testimonials__container'>
-
 {
   data.map(({avatar, name, title, review, github, webapp}, index) =>{
 return (
-
   <SwiperSlide  key={index} className='testimonial'>
   <div className='client__avatar'>
  <img src={avatar} alt="Testimonials" />
@@ -135,33 +94,10 @@ return (
   </div>
 </SwiperSlide>
 )
-
   })
 }
-
-
-
-
-    </Swiper>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
-
+</Swiper>
+</section>
   )
 }
-
 export default Testimonials

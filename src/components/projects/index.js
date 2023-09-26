@@ -6,10 +6,10 @@ import { projects } from '../../data/constants'
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
   return (
-    <Container id="projects" className='section'>
-      <Wrapper className='container wrapper__container'>
-        <h5>What i did</h5>
+    <section id="projects">
+            <h5>What i did</h5>
         <h2>Projects</h2>
+      <Wrapper className='container wrapper__container'>
         {/* <Desc>
           I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc> */}
@@ -21,21 +21,21 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Web Development</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>  Web Development</ToggleButton>
           }
           <Divider />
           {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>IT Support</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>IT Support</ToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>Tutoring</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>Tutoring</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
@@ -50,7 +50,7 @@ const Projects = ({openModal,setOpenModal}) => {
             ))}
         </CardContainer>
       </Wrapper>
-    </Container>
+    </section>
   )
 }
 export default Projects

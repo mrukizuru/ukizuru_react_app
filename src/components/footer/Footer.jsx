@@ -10,9 +10,9 @@ const Footer =() =>{
     
 <footer>
     <div className='container container__footer'>
-    <div className='me__avatar'>
+    {/* <div className='me__avatar'>
     <a href="#" className='footer__logo' rel="Home"><img src={avatar} alt=" ukizuru image" /></a>
-  </div>
+  </div> */}
 <ul className='permalinks'>
 <li><a href="#">Home</a></li>
 <li><a href="#about">About</a></li>

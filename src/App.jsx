@@ -8,6 +8,7 @@ import Nav from './components/nav/Nav'
 import Projects from './components/projects/index'
 import ProjectDetails from './components/projectDetails/index'
 import Testimonials from './components/Testimonials/Testimonials';
+import Skills  from './components/Skills/index'
 import React, { useState } from 'react'
 // import { useMediaQuery } from 'react-responsive';
 const App = () =>{
@@ -19,6 +20,7 @@ const App = () =>{
 <Header/>
 <Nav/>
 <About/>
+<Skills/>
 <Projects openModal={openModal} setOpenModal={setOpenModal} />
 {openModal.state && <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />}
 <Testimonials/>

@@ -21,9 +21,8 @@ const App = () =>{
 <About/>
 <Projects openModal={openModal} setOpenModal={setOpenModal} />
 {openModal.state && <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />}
-
-<Contact/>
 <Testimonials/>
+<Contact/>
 <Footer/>
     </>
   )

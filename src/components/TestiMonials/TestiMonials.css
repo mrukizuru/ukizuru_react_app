@@ -1,5 +1,5 @@
 .testimonials__container{
-  width: 40%;
+  width: 20%;
   margin-top: 4rem;
 }
 
@@ -12,7 +12,7 @@
   border: 0.4rem solid var(--color-primary-variant);
 }
 .testimonial{
- background: var(--color-primary-variant);
+background: var(--color-primary-variant);
 text-align: center;
 padding: 1rem;
 border-radius: 0.5rem;
@@ -26,8 +26,6 @@ user-select: none;
   width: 80%;
   margin: 0.8rem auto 0;
 }
-
-
 
 .swiper-slide:nth-child(1n) {
   background-color: rgb(206, 17, 17);
@@ -71,12 +69,9 @@ user-select: none;
 
 
 
-
-
-
-
-
-
+.client__socialMedia{
+  padding: 1rem;
+}
 
 
 
@@ -89,8 +84,9 @@ user-select: none;
 
 @media screen and (max-width: 1024px){
   .testimonials__container{
-     width: 60%;
+     width: 40%;
   }
+ 
       }
   @media screen and (max-width: 600px){
     .testimonials__container{
@@ -99,6 +95,7 @@ user-select: none;
     .client__review{
       width: var(--container-width-sm);
     }
+
   
       }
   

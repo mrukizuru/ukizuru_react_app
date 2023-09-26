@@ -1,45 +1,21 @@
-/* .swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-}
-
-
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
- .swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
-  background-color: var(--color-primary);
-  color: var(--color-bg-variant);
-} */
-.container .testimonials__container{
+.testimonials__container{
   width: 40%;
+  margin-top: 4rem;
 }
 
 .client__avatar{
   width: 4rem;
   aspect-ratio: 1/1;
   overflow: hidden;
+  border-radius: 50%;
   margin: 0 auto 1rem;
   border: 0.4rem solid var(--color-primary-variant);
 }
-.testimonials{
-  background: var(--color-primary-variant);
+.testimonial{
+ background: var(--color-primary-variant);
 text-align: center;
-padding: 2rem;
-border-radius: 2rem;
+padding: 1rem;
+border-radius: 0.5rem;
 user-select: none;
 }
 
@@ -51,3 +27,98 @@ user-select: none;
   margin: 0.8rem auto 0;
 }
 
+
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================Media Queries=====================*/
+
+@media screen and (max-width: 1024px){
+  .testimonials__container{
+     width: 60%;
+  }
+      }
+  @media screen and (max-width: 600px){
+    .testimonials__container{
+     width: var(--container-width-sm);
+   }
+    .client__review{
+      width: var(--container-width-sm);
+    }
+  
+      }
+  
+  
+  @media screen and (max-width: 320px){
+     /* For Small Mobile devices */
+              }
+  @media screen and (max-width: 480px){
+  /* For Mobile devices */
+   }
+  @media screen and (max-width: 768px){
+  /* For Tablets or iPad */
+    }
+  
+  @media screen and (max-width: 1024px){
+       /* For Laptop or small-size screen */
+  }
+  @media screen and (max-width: 1200px){
+   /* For Desktop or large-size screen */
+   }
+  @media screen and (min-width: 1201px){
+  /* For Extra-large size device */ }
+  

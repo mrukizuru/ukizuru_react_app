@@ -18,6 +18,28 @@ const About = () =>{
     </div>
       
       <div className="about__content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         <div className="about__cards">
           <article className='about__card'>
             <BsAward className='about__icon'/>
